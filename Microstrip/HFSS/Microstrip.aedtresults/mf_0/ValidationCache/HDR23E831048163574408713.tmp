@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='lamada=\'30mm\''
+		Status=true
+		FileName='VI8282632416358322219.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

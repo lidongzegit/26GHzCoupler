@@ -1,0 +1,12 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='a=\'5mm\' b=\'0.25mm\' l=\'15mm\''
+		Status=true
+		FileName='VI64826080163586217723.tmp'
+	$end 'OneValidationResult'
+	$begin 'OneValidationResult'
+		Variation='a=\'5mm\' b=\'0.25mm\' l=\'25mm\''
+		Status=true
+		FileName='VI52E22304816359484576.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

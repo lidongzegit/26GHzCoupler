@@ -1,0 +1,105 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002021, month=000000000011, day=000000000006, hour=000000000023, min=000000000045, sec=000000000036)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002764, lin=000000000085, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=240, Instance=\'SetupDefinition\', Solution=-1, VersionID=826)'='SolutionBlock5'
+	'SolutionKey(SimSetup=240, Instance=\'SolutionDefinition\', Solution=241, VersionID=955)'='SolutionBlock6'
+	'SolutionKey(SimSetup=240, Instance=\'SolutionDefinition\', Solution=242, VersionID=955)'='SolutionBlock7'
+$end 'BlockMapName'
+$begin 'SolutionBlock6'
+	SolutionName='AdaptivePass'
+	SolutionID=241
+	V=955
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(26000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock6'
+$begin 'SolutionBlock7'
+	SolutionName='LastAdaptive'
+	SolutionID=242
+	V=955
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(26000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock7'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=826
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1264
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=1079)
+		Map(V='Cvia=\'0.4mm\' Cvp=\'0.8mm\' Dvia=\'0.3mm\' h=\'0.25mm\' hc=\'0.035mm\' Hport=\'1.5mm\' L0=\'21mm\' L50=\'5mm\' Ltaper=\'2.75mm\' Svp=\'0.6mm\' W0=\'16mm\' W50=\'0.72mm\' Wapeture=\'9.9mm\' Wport=\'2.5mm\' Wsiw=\'5.9mm\' Wtaper=\'1.25mm\'', ID=1263)
+		Map(V='Cvia=\'0.4mm\' Cvp=\'0.8mm\' Dvia=\'0.3mm\' h=\'0.25mm\' hc=\'0.035mm\' Hport=\'3mm\' L0=\'21mm\' L50=\'5mm\' Ltaper=\'2.75mm\' Svp=\'0.6mm\' W0=\'16mm\' W50=\'0.72mm\' Wapeture=\'9.9mm\' Wport=\'5mm\' Wsiw=\'5.9mm\' Wtaper=\'1.25mm\'', ID=816)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=2
+	$begin 'NextAssemVersionID'
+		NextUniqueID=3
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock5'
+	SimSetupID=240
+	SimSetupName='Setup1'
+	VersionID=826
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=2
+	$begin 'NextAssemVersionID'
+		NextUniqueID=3
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=370, lin=1, lvl=0)
+		SolutionBlock6(pos=761, lin=7, lvl=0)
+		SolutionBlock7(pos=1120, lin=25, lvl=0)
+		SolutionBlock5(pos=2424, lin=66, lvl=0)
+		SolutionBlock1(pos=1479, lin=43, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2764, lin=85, lvl=0)
+	$end '$index$'
+$end '$index$'
